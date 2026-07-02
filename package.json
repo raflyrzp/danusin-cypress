@@ -1,0 +1,16 @@
+{
+  "name": "danusin-cypress",
+  "version": "1.0.0",
+  "description": "E2E Testing for Danus.in using Cypress and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "cypress": "^13.6.2",
+    "cypress-file-upload": "^5.0.8",
+    "typescript": "^5.3.3"
+  }
+}
