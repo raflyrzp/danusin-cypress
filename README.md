@@ -39,9 +39,9 @@ cypress/
    cd cypress
    ```
 
-2. Instal seluruh dependensi yang diperlukan:
+2. Instal seluruh dependensi yang diperlukan menggunakan Bun:
    ```bash
-   npm install
+   bun install
    ```
 
 3. Siapkan file mock/fixtures di dalam direktori `cypress/fixtures/`:
@@ -65,14 +65,14 @@ Tersedia dua opsi untuk mengeksekusi otomatisasi Cypress:
 ### 1. Menjalankan via Cypress Test Runner (Interactive Mode)
 Opsi ini mempermudah Anda melakukan proses *debugging* secara visual melalui peramban (browser) grafis:
 ```bash
-npm run cypress:open
+bun run cypress:open
 ```
 *Setelah jendela Cypress terbuka, pilih opsi **E2E Testing**, tentukan browser pilihan Anda (misalnya Chrome), dan klik berkas pengujian yang ingin dijalankan.*
 
 ### 2. Menjalankan via Command Line (Headless Mode)
 Opsi ini mengeksekusi semua tes di latar belakang secara cepat tanpa membuka antarmuka grafis:
 ```bash
-npm run cypress:run
+bun run cypress:run
 ```
 
 ---
