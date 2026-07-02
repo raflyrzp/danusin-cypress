@@ -1,0 +1,26 @@
+# Dependency directory
+node_modules/
+
+# Cypress assets & outputs
+cypress/screens/
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Environment files
+.env
+.env.*
+.sandbox
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
